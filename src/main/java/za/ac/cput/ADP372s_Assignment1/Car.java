@@ -1,7 +1,8 @@
 package za.ac.cput.ADP372s_Assignment1;
 
 public class Car {
-
+    //Author name: Mogamat Yaseen Levy 218003323
+//Group name: Group 12RB
     private int speed;
     private String model;
     private boolean fast = false;
