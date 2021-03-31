@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+//Author name: Mogamat Yaseen Levy 218003323
+//Group name: Group 12RB
 public class CarTest {
 
 

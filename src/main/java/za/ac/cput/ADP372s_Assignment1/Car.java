@@ -7,7 +7,8 @@ public class Car {
     private boolean fast = false;
 
     public Car(String model,int speed){
-
+        this.model = model;
+        this.speed = speed;
     }
 
     public int getSpeed() {
