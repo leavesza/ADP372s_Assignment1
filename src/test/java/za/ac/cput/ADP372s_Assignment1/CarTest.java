@@ -31,7 +31,7 @@ public class CarTest {
     //Failing test
     @Test
     public void testFailGetModel() {
-        assertNotEquals("Porche",car1.getModel());
+        assertEquals("Porche",car1.getModel());
     }
 
 
