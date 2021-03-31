@@ -35,16 +35,18 @@ public class CarTest {
     }
 
 
+    //Timeout test
     @Timeout(10)
     @Test
-    public void testUnhappyToStart(){
+    public void testTimeout(){
         assertFalse(car1.isFast());
     }
 
 
+    //Disabled test
     @Disabled
     @Test
-    public void testHappyAfterPlay(){
+    public void testDisabled(){
         car1.isFast();
         assertTrue(car1.isFast());
     }
